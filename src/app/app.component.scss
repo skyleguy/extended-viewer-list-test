@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.list-view {
+  width: 98%;
+  height: 20vh;
+  padding: 14px;
+  overflow-y: auto;
+}
+
+.viewer {
+  padding: 14px;
+  width: 98%;
+  height: 80;
+  overflow-y: auto;
+}
+
+.item {
+  height: 20px;
+  border: 2px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid blue;
+}
